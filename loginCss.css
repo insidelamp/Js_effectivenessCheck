@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contents {
+  width: 100%;
+  height: 100%;
+  background-image: url("art-ga9fb69ec2_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topContents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.greetings {
+  color: white;
+  font-size: 100px;
+  font-family: "Black Han Sans", sans-serif;
+}
+.yourInformation {
+  color: white;
+  font-size: 50px;
+  margin: 30px 0px;
+  font-family: "Black Han Sans", sans-serif;
+}
+.welcome {
+  color: white;
+  font-size: 100px;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.bottomContents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottomContents ::placeholder {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.userId {
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(118, 116, 116);
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.userPwd {
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(118, 116, 116);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.userPwdCheck {
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(118, 116, 116);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.userIdEffectivenessCheckFalse,
+.userPwdEffectivenessCheckFalse,
+.userPwdEffectiveness1MoreChekFalse {
+  color: rgb(230, 115, 115);
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.userIdEffectivenessCheckTrue,
+.userPwdEffectivenessCheckTrue,
+.userPwdEffectiveness1MoreChekTrue {
+  color: rgb(107, 207, 114);
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.userSubmit {
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(118, 116, 116);
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.falseChangeBorder {
+  border: 2px solid rgb(230, 115, 115);
+}
+
+.trueChangeBorder {
+  border: 2px solid rgb(107, 207, 114);
+}
+
+input:focus {
+  outline: none;
+}
